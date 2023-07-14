@@ -1,0 +1,23 @@
+img{
+    height: 100%;
+    width: 100%;
+}
+* .row{
+    height: 400px;
+    display: flex;
+    gap: 10px;
+   margin-top: 6px;
+} 
+.row > div{
+    flex: 1;
+}
+.ver{
+    height: 50%;
+    width: 50%;
+}
+.Lion{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    padding-top: 10px;
+}
